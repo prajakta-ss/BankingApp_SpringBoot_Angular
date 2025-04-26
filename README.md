@@ -1,4 +1,4 @@
-# 💰 Spring Boot Banking Application
+![homepage](https://github.com/user-attachments/assets/4fd27a14-f51e-484c-979f-049c741cb169)# 💰 Spring Boot Banking Application
 
 A secure RESTful banking application built using Spring Boot with JWT-based authentication. Users can register, log in, deposit, withdraw, transfer money, and view transaction history.
 
@@ -214,7 +214,31 @@ src/
 │   └── app.component.ts          # Root component
 
 
+# 🔥 Snapshots
 
+1. Home Page
 
+![homepage](https://github.com/user-attachments/assets/b54c0480-15a7-4bc0-bd72-afad0a53533b)
 
+2. Register Page
+![register](https://github.com/user-attachments/assets/3a67523a-a496-4f15-a303-1fa46dbeaabf)
 
+3. Login Page
+
+![login](https://github.com/user-attachments/assets/7c0c0a62-242c-47cf-81f1-cca28256dc58)
+
+4.Dashboard Page
+
+![dashboard](https://github.com/user-attachments/assets/32a2716f-067a-4d88-8661-44809d2bd109)
+
+5.Deposit Page
+ ![deposit](https://github.com/user-attachments/assets/affaed17-7dd4-420c-a6fa-fadd7f127d72)
+
+6.Wthdraw Page
+![withdraw](https://github.com/user-attachments/assets/483fcc57-22c1-439f-9673-276716128e94)
+
+7.Transfer Page
+![transfer](https://github.com/user-attachments/assets/d7acfcf6-7acc-4b52-aa73-b22ff1fdcc5d)
+
+8.Transac![transactionhistory](https://github.com/user-attachments/assets/f22332ae-2fa7-4c5d-b14e-198d15f243f7)
+tion History
