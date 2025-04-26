@@ -214,8 +214,6 @@ src/
 │   └── app.component.ts          # Root component
 
 
-# 🔥 Snapshots
-1. Home Page
 
 
 
