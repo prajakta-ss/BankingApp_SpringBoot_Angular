@@ -1,4 +1,5 @@
-![homepage](https://github.com/user-attachments/assets/4fd27a14-f51e-484c-979f-049c741cb169)# 💰 Spring Boot Banking Application
+![homepage](https://github.com/user-attachments/assets/4fd27a14-f51e-484c-979f-049c741cb169)
+# 💰 Spring Boot Banking Application
 
 A secure RESTful banking application built using Spring Boot with JWT-based authentication. Users can register, log in, deposit, withdraw, transfer money, and view transaction history.
 
@@ -149,8 +150,11 @@ Select BODY->RAW->JSON
 select * from user_details;
 select * from transactions;
 
+# 💰 Angular Banking Application (Frontend)
 
-###4. Angular setup
+This Angular app provides a frontend interface for a Spring Boot banking backend. It allows users to register, login, deposit, withdraw, transfer money, view transaction history, and securely logout — all protected by JWT-based authentication.
+
+### 4. Angular setup
 
 1.```bash
 npm install -g @angular/cli
@@ -160,6 +164,7 @@ cd angular-banking-app
 
 Install dependencies:
 npm install
+npm install --save-dev karma-jasmine jasmine-core
 
 Configure backend API URL
 
@@ -172,23 +177,8 @@ private apiUrl = 'http://localhost:8080/api/accounts';
 ng serve
 Then open your browser and visit:http://localhost:4200
 
-# 💰 Angular Banking Application (Frontend)
-
-This Angular app provides a frontend interface for a Spring Boot banking backend. It allows users to register, login, deposit, withdraw, transfer money, view transaction history, and securely logout — all protected by JWT-based authentication.
 
 ---
-
-## 🛠️ Tech Stack
-
-- **Frontend**: Angular 17+
-- **State Mgmt**: Services with BehaviorSubject
-- **Routing**: Angular Router
-- **Security**: Auth Guard + HTTP Interceptor
-- **Forms**: Template-driven Forms
-- **API Security**: JWT (stored in `localStorage`)
-
----
-
 ## 🗂️ Project Structure
 
 ```bash
