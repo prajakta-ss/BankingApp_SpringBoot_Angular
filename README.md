@@ -218,7 +218,7 @@ src/
 
 1. Home Page
 
-![homepage](https://github.com/user-attachments/assets/b54c0480-15a7-4bc0-bd72-afad0a53533b)
+![homepage](https://user-images.githubusercontent.com/192344263/homepage.png)
 
 2. Register Page
 ![register](https://github.com/user-attachments/assets/3a67523a-a496-4f15-a303-1fa46dbeaabf)
