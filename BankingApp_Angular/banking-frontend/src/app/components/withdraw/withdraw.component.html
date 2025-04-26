@@ -1,0 +1,18 @@
+<!-- <h2>Withdraw</h2>
+<input type="number" [(ngModel)]="amount" placeholder="Enter amount to withdraw" />
+<button (click)="withdraw()">Withdraw</button>
+<p>{{ message }}</p> -->
+
+
+<div class="form-container">
+    <h2>Withdraw</h2>
+    <form (ngSubmit)="withdraw()">
+      <input type="number" [(ngModel)]="amount" name="amount" placeholder="Enter amount to withdraw" required />
+      <button type="submit">Withdraw</button>
+    </form>
+    
+    <p class="success" *ngIf="message">{{ message }}</p>
+    <p class="error" *ngIf="error">{{ error }}</p>
+
+  </div>
+  

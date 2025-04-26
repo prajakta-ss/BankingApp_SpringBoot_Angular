@@ -1,0 +1,21 @@
+<div *ngIf="isAuthenticated; else guestNav">
+  <nav>
+    <a routerLink="/">Home</a> |
+    <a routerLink="/dashboard">Dashboard</a> |
+    <a routerLink="/deposit">Deposit</a> |
+    <a routerLink="/withdraw">Withdraw</a> |
+    <a routerLink="/transfer">Transfer</a> |
+    <a routerLink="/transactions/history">Transaction History</a> |
+    <a (click)="logout()" style="cursor:pointer">Logout</a>
+  </nav>
+</div>
+
+<ng-template #guestNav>
+  <nav>
+    <a routerLink="/">Home</a> |
+    <a routerLink="/login">Login</a> |
+    <a routerLink="/register">Register</a>
+  </nav>
+</ng-template>
+
+<router-outlet></router-outlet>

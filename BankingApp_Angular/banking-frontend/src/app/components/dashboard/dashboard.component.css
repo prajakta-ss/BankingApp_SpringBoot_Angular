@@ -1,0 +1,22 @@
+.dashboard {
+    max-width: 600px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .dashboard h2 {
+    color: var(--blue);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dashboard p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  

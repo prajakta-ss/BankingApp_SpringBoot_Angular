@@ -1,0 +1,88 @@
+<mat-card class="register-card">
+  <mat-card-header>
+    <mat-card-title>Create Account</mat-card-title>
+  </mat-card-header>
+  <br>
+
+  <mat-card-content>
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="register-form">
+      <!-- Username -->
+      <mat-form-field appearance="outline">
+        <mat-label>Username</mat-label>
+        <input matInput formControlName="username" required>
+        <mat-error *ngIf="f['username'].errors?.['required']">
+          Username is required
+        </mat-error>
+        <mat-error *ngIf="f['username'].errors?.['minlength']">
+          Username must be at least 4 characters
+        </mat-error>
+      </mat-form-field>
+
+      <!-- Password -->
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput [type]="hidePassword ? 'password' : 'text'" formControlName="password" required>
+        <button mat-icon-button matSuffix (click)="hidePassword = !hidePassword" type="button">
+          <!-- <mat-icon>{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon> -->
+        </button>
+        <mat-error *ngIf="f['password'].errors?.['required']">
+          Password is required
+        </mat-error>
+        <mat-error *ngIf="f['password'].errors?.['minlength']">
+          Password must be at least 6 characters
+        </mat-error>
+      </mat-form-field>
+
+      <!-- Email -->
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" type="email" required>
+        <mat-error *ngIf="f['email'].errors?.['required']">
+          Email is required
+        </mat-error>
+        <mat-error *ngIf="f['email'].errors?.['email']">
+          Please enter a valid email
+        </mat-error>
+      </mat-form-field>
+
+      <!-- Age -->
+      <mat-form-field appearance="outline">
+        <mat-label>Age</mat-label>
+        <input matInput formControlName="age" type="number" required>
+        <mat-error *ngIf="f['age'].errors?.['required']">
+          Age is required
+        </mat-error>
+        <mat-error *ngIf="f['age'].errors?.['min']">
+          Enter valid age
+        </mat-error>
+      </mat-form-field>
+
+      <!-- Address -->
+      <mat-form-field appearance="outline">
+        <mat-label>Address</mat-label>
+        <textarea matInput formControlName="address" required></textarea>
+        <mat-error *ngIf="f['address'].errors?.['required']">
+          Address is required
+        </mat-error>
+      </mat-form-field>
+
+      <div class="button-row">
+        <button 
+          mat-stroked-button 
+          color="primary" 
+          type="submit"
+          [disabled]="registerForm.invalid"
+        >
+          Register
+        </button>
+        <button 
+          mat-button 
+          type="button"
+          (click)="router.navigate(['/login'])"
+        >
+          Already have an account? Login
+        </button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

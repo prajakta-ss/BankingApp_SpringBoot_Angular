@@ -1,0 +1,20 @@
+<!-- <h2>Transfer Funds</h2>
+<input type="text" [(ngModel)]="recipientUsername" placeholder="Recipient Username" />
+<input type="number" [(ngModel)]="amount" placeholder="Enter amount to transfer" />
+<button (click)="transfer()">Transfer</button>
+<p>{{ message }}</p> -->
+
+
+
+<div class="form-container">
+    <h2>Transfer Funds</h2>
+    <form (ngSubmit)="transfer()">
+      <input type="text" [(ngModel)]="recipientUsername" name="recipientUsername" placeholder="Recipient Username" required />
+      <input type="number" [(ngModel)]="amount" name="amount" placeholder="Enter amount to transfer" required />
+      <button type="submit">Transfer</button>
+    </form>
+    
+    <p class="success" *ngIf="message && !error">{{ message }}</p>
+    <p class="error" *ngIf="error">{{ error }}</p>
+  </div>
+  

@@ -1,0 +1,66 @@
+.container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.container h2 {
+  color: var(--blue);
+  margin-bottom: 1.5rem;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container label {
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+}
+
+.container input[type="number"] {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+.container input[type="number"]:focus {
+  box-shadow: 0 0 5px rgba(63, 81, 181, 0.3);
+}
+
+.container button[type="submit"] {
+  padding: 0.75rem 1.5rem;
+  background-color: #3a86ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: font-size 0.2s ease;
+}
+
+.container button[type="submit"]:hover {
+  font-size: 1.05rem;
+  text-decoration: underline;
+}
+
+.success {
+  color: green;
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
