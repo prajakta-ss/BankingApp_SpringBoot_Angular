@@ -1,4 +1,5 @@
 ![homepage](https://github.com/user-attachments/assets/4fd27a14-f51e-484c-979f-049c741cb169)
+![register](https://user-images.githubusercontent.com/192344263/register.png)
 # 💰 Spring Boot Banking Application
 
 A secure RESTful banking application built using Spring Boot with JWT-based authentication. Users can register, log in, deposit, withdraw, transfer money, and view transaction history.
@@ -211,7 +212,7 @@ src/
 ![homepage](https://user-images.githubusercontent.com/192344263/homepage.png)
 
 2. Register Page
-![register](https://user-images.githubusercontent.com/192344263/register.png)
+
 
 3. Login Page
 
