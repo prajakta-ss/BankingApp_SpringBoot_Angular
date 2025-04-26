@@ -38,7 +38,7 @@ Make sure you have the following installed:
 ###  Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/banking-app.git
+git clone https://github.com/prajakta-ss/BankingApp_SpringBoot_Angular.git
 For Angular
 cd BankingApp_Angular
 cd banking-app
@@ -212,3 +212,11 @@ src/
 │   │   └── auth.interceptor.ts   # Attaches JWT to requests
 │   ├── app.routes.ts             # Angular routes
 │   └── app.component.ts          # Root component
+
+
+# 🔥 Snapshots
+1. Home Page
+
+
+
+
