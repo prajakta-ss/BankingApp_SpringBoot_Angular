@@ -221,24 +221,25 @@ src/
 ![homepage](https://user-images.githubusercontent.com/192344263/homepage.png)
 
 2. Register Page
-![register](https://github.com/user-attachments/assets/3a67523a-a496-4f15-a303-1fa46dbeaabf)
+![register](https://user-images.githubusercontent.com/192344263/register.png)
 
 3. Login Page
 
-![login](https://github.com/user-attachments/assets/7c0c0a62-242c-47cf-81f1-cca28256dc58)
+![login](https://user-images.githubusercontent.com/192344263/login.png)
 
 4.Dashboard Page
 
-![dashboard](https://github.com/user-attachments/assets/32a2716f-067a-4d88-8661-44809d2bd109)
+![dashboard](https://user-images.githubusercontent.com/192344263/dashboard.png)
 
 5.Deposit Page
- ![deposit](https://github.com/user-attachments/assets/affaed17-7dd4-420c-a6fa-fadd7f127d72)
+ ![deposit](https://user-images.githubusercontent.com/192344263/deposit.png)
 
 6.Wthdraw Page
-![withdraw](https://github.com/user-attachments/assets/483fcc57-22c1-439f-9673-276716128e94)
+![withdraw](https://user-images.githubusercontent.com/192344263/withdraw.png)
 
 7.Transfer Page
-![transfer](https://github.com/user-attachments/assets/d7acfcf6-7acc-4b52-aa73-b22ff1fdcc5d)
+![transfer](https://user-images.githubusercontent.com/192344263/transfer.png)
 
-8.Transac![transactionhistory](https://github.com/user-attachments/assets/f22332ae-2fa7-4c5d-b14e-198d15f243f7)
-tion History
+8.Transaction History
+![transactionhistory](https://user-images.githubusercontent.com/192344263/transactionhistory.png)
+
