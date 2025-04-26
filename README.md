@@ -1,8 +1,7 @@
-![homepage](https://github.com/user-attachments/assets/4fd27a14-f51e-484c-979f-049c741cb169)
-https://imgur.com/a/qGIXUPo
+
 # 💰 Spring Boot Banking Application
 
-A secure RESTful banking application built using Spring Boot with JWT-based authentication. Users can register, log in, deposit, withdraw, transfer money, and view transaction history.
+A secure RESTful banking application built using Spring Boot with JWT-based authentication. Users can register, log in, deposit, withdraw, transfer money, and view transaction history.This Angular app provides a frontend interface for a Spring Boot banking backend. It allows users to register, login, deposit, withdraw, transfer money, view transaction history, and securely logout — all protected by JWT-based authentication.
 
 ## 🚀 Features
 
@@ -21,6 +20,35 @@ A secure RESTful banking application built using Spring Boot with JWT-based auth
 - **Auth**: JWT (JSON Web Tokens)
 - **HTTP Client**: Angular HttpClient
 - **Styling**: CSS, Angular Forms
+
+  # 🔥 Snapshots
+
+1. Home Page
+https://imgur.com/a/Wf9hhBD
+
+2. Register Page
+https://imgur.com/a/qGIXUPo
+
+3. Login Page
+
+https://imgur.com/a/Wf9hhBD
+
+4.Dashboard Page
+
+![dashboard](https://user-images.githubusercontent.com/192344263/dashboard.png)
+
+5.Deposit Page
+ ![deposit](https://user-images.githubusercontent.com/192344263/deposit.png)
+
+6.Wthdraw Page
+![withdraw](https://user-images.githubusercontent.com/192344263/withdraw.png)
+
+7.Transfer Page
+![transfer](https://user-images.githubusercontent.com/192344263/transfer.png)
+
+8.Transaction History
+![transactionhistory](https://user-images.githubusercontent.com/192344263/transactionhistory.png)
+
 
 ## 🚀 Getting Started
 
@@ -153,8 +181,6 @@ select * from transactions;
 
 # 💰 Angular Banking Application (Frontend)
 
-This Angular app provides a frontend interface for a Spring Boot banking backend. It allows users to register, login, deposit, withdraw, transfer money, view transaction history, and securely logout — all protected by JWT-based authentication.
-
 ### 4. Angular setup
 
 1.```bash
@@ -205,32 +231,4 @@ src/
 │   └── app.component.ts          # Root component
 
 
-# 🔥 Snapshots
-
-1. Home Page
-
-![homepage](https://user-images.githubusercontent.com/192344263/homepage.png)
-
-2. Register Page
-![register](https://user-images.githubusercontent.com/192344263/register.png)
-
-3. Login Page
-
-![login](https://user-images.githubusercontent.com/192344263/login.png)
-
-4.Dashboard Page
-
-![dashboard](https://user-images.githubusercontent.com/192344263/dashboard.png)
-
-5.Deposit Page
- ![deposit](https://user-images.githubusercontent.com/192344263/deposit.png)
-
-6.Wthdraw Page
-![withdraw](https://user-images.githubusercontent.com/192344263/withdraw.png)
-
-7.Transfer Page
-![transfer](https://user-images.githubusercontent.com/192344263/transfer.png)
-
-8.Transaction History
-![transactionhistory](https://user-images.githubusercontent.com/192344263/transactionhistory.png)
 
