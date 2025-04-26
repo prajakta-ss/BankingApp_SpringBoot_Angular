@@ -23,32 +23,7 @@ A secure RESTful banking application built using Spring Boot with JWT-based auth
 
   # 🔥 Snapshots
 
-1. Home Page
-https://imgur.com/a/Wf9hhBD
-
-2. Register Page
-https://imgur.com/a/qGIXUPo
-
-3. Login Page
-
-https://imgur.com/a/Wf9hhBD
-
-4.Dashboard Page
-
-![dashboard](https://user-images.githubusercontent.com/192344263/dashboard.png)
-
-5.Deposit Page
- ![deposit](https://user-images.githubusercontent.com/192344263/deposit.png)
-
-6.Wthdraw Page
-![withdraw](https://user-images.githubusercontent.com/192344263/withdraw.png)
-
-7.Transfer Page
-![transfer](https://user-images.githubusercontent.com/192344263/transfer.png)
-
-8.Transaction History
-![transactionhistory](https://user-images.githubusercontent.com/192344263/transactionhistory.png)
-
+Screenshot URL : https://imgur.com/a/Wf9hhBD
 
 ## 🚀 Getting Started
 
