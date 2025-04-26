@@ -10,7 +10,7 @@ A secure RESTful banking application built using Spring Boot with JWT-based auth
 - 🔄 Transfer money between users
 - 📜 View transaction history
 - 🔐 Secure endpoints using Spring Security
-- 📦 Persistent data with Spring Data JPA and H2/MySQL/PostgreSQL
+- 📦 Persistent data with Spring Data JPA and PostgreSQL
 
 ## 🛠️ Tech Stack
 
